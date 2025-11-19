@@ -1,25 +1,51 @@
-body {
-  color: rgb(58, 173, 226);
-  background: rgb(18, 133, 226);
-   margin: 0px;
-  font-family: "Bitcount Prop Single Ink", sans-serif;
+body{
+    color:rgb(240, 134, 194);
+    background:rgb(204, 186, 216);
+    margin: 0px;
+    font-family:"Oleo Script", sans-serif;
+    margin-bottom: 100px;
+}
+header{
+    border-bottom: solid 2px rgb(162, 162, 202);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(179, 90, 187);
+}
+.chamada{ 
+    background: rgb(208, 208, 223);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-right: 5%;
 }
 
-header {
-  border-bottom: solid 2px color rgba(235, 201, 91, 0.993);
-  padding: 20px;
-  font-size: 32px;
-  color: rgb(0, 255, 221);
+h1{
+    font-size: 40px;
 }
-
-section {
-  background: rgba(189, 19, 223, 0.788);
-  padding-bottom: 80px;
-  padding-top: 80px;
-  display: flex;
-  justify-content: center;
+p{
+    font-size: 20px;
 }
-
-.chamada-texto {
-  margin-right: 5%;
+.categoria-videos{
+    display:flex;
+    overflow: auto;
+    gap: 10px;
+}
+.categoria{
+    padding: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid red;
+}
+.categoria h2{
+    color:rgb(219, 127, 219);
 }
