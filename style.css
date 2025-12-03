@@ -1,17 +1,17 @@
 body{
-    color:rgb(0, 0, 0, 0.644);
-    background:rgb(70, 235, 5, 0.829);
+    color:rgba(230, 226, 26, 0.644);
+    background:rgba(68, 218, 9, 0.829);
     margin: 0px;
     font-family:"Stack Sans Text", sans-serif;
 }
 header{
-    border-bottom: solid 2px rgb(211, 211, 255);
+    border-bottom: solid 2px rgb(0, 0, 216);
     padding: 20px;
     font-size: 32px;
-    color: rgb(233, 125, 121);
+    color: rgb(214, 32, 26);
 }
 .chamada{ 
-    background: rgba(112, 139, 196, 0.925);
+    background: rgba(72, 103, 168, 0.925);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -42,5 +42,5 @@ p{
 }
 .categoria-videos img:hover{
     opacity: 1.0;
-    border: 1px solid rgb(255, 0, 242);
+    border: 1px solid rgb(197, 118, 193);
 }
